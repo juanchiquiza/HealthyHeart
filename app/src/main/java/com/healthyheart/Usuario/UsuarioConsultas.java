@@ -32,7 +32,7 @@ public class UsuarioConsultas {
 
     public String GuardarUsuario(UsuarioModel user,AdministradorBase admin) {
 
-            String Resultado="Se guardo exitosamente1227733";
+            String Resultado="Se guardo exitosamente12274564733";
             SQLiteDatabase bd = admin.getWritableDatabase();
 
             ContentValues registro = new ContentValues();
