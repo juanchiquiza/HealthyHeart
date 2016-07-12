@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:id="@+id/button7"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></TableLayout>
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"  android:stretchColumns="*" android:background="#ffffff"
+        android:id="@+id/table_layout1"
+        android:orientation="vertical"
+        android:layout_above="@+id/button7">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/TextView06" android:text="Codigo"
+                android:layout_weight="1" android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView08" android:text="Nombre"
+                android:layout_weight="1" android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView09" android:text="Telefono"
+                android:layout_weight="1" android:background="#cac9c9"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>
